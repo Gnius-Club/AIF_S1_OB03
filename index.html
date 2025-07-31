@@ -1,24 +1,167 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Sesión de Intro 3: Tu Primera Creación con IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Intro 3: Tu Primera Creación con IA</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo y Conexión ⏰ 3 minutos</h2>
+                <p>Iniciar la sesión estableciendo el tono profesional y la rutina de colaboración con Xolo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto ⏰ 3 minutos</h3>
+                            <p>El facilitador conecta las sesiones anteriores y presenta el objetivo de hoy: la primera co-creación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Directores, ya conocemos nuestra misión y tenemos nuestro kit de herramientas listo. Hoy, todo se conecta. Vivirán su primera experiencia de 'Vibe Coding', la metodología central de Gnius Club. No se trata de programar, se trata de traducir su visión en instrucciones claras para que su equipo de IA las ejecute. Empecemos con nuestro 'handshake' digital a Xolo para iniciar la sesión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Ejemplificación ⏰ 7 minutos</h2>
+                <p>Clarificar el objetivo de aprendizaje y mostrar un ejemplo del producto final para inspirar y dar un norte claro.</p>
+                 <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Declaración del "I Can Statement" ⏰ 3 minutos</h3>
+                            <p>El facilitador define el objetivo de aprendizaje concreto para la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Nuestro objetivo hoy es muy concreto. Al final de la sesión, podrán decir: <strong>'Yo puedo traducir mi idea ('vibe') en un brief de diseño visual y conceptual para mi proyecto personal, usando a Xolo como mi asesor estratégico y a una IA generativa de imágenes como mi conceptualizador.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Presentación de un Ejemplo ⏰ 4 minutos</h3>
+                            <p>El facilitador muestra un ejemplo de un 'Brief de Diseño' bien estructurado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Esto es a lo que aspiramos hoy. (Proyecta un ejemplo de Brief). Observen la estructura: un título claro, un objetivo conciso, un 'moodboard' con 2-3 imágenes que capturan la estética, y una justificación que explica el porqué de esas imágenes. Esto no es un dibujo técnico; es el alma de su proyecto, su plan estratégico. Esto es lo que crearán hoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (La Estrategia detrás del Prompt) ⏰ 10 minutos</h2>
+                <p>Fase de diálogo con Xolo para entender el "porqué" de la estrategia de diseño antes de la ejecución técnica.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: El Rol de Xolo y la Ingeniería de Prompts ⏰ 10 minutos</h3>
+                            <p>Los estudiantes interactúan con Xolo para entender la diferencia entre un prompt débil y uno fuerte.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Entramos al A.I. GYM. Su rol no es dibujar, es dirigir. Para dirigir bien a una IA de imágenes, necesitan dominar la 'ingeniería de prompts'. Ahora, todos van a consultar a Xolo. Pregúntenle: <strong>'Xolo, explícame la diferencia entre un prompt débil y uno fuerte para diseño de producto. Dame un ejemplo para un [objeto simple, como 'una lámpara'] y dame una estructura o fórmula para crear prompts fuertes.'</strong> Tómense el tiempo para analizar su respuesta. Es la clave de la sesión.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Spark (De la Vibe al Brief) ⏰ 15 minutos</h2>
+                <p>El corazón de la sesión: los estudiantes aplican la metodología para co-crear su brief de diseño.</p>
+                 <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Diálogo Estratégico y Creación de Prompts ⏰ 7 minutos</h3>
+                            <p>Los alumnos describen su "vibe" a Xolo y co-crean los prompts para la IA de imágenes.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, al Brain Spark. Empiecen un diálogo con Xolo sobre el objeto que quieren diseñar para su proyecto personal. Describan su 'vibe': ¿es minimalista, futurista, orgánico? Usen la conversación con Xolo para refinar sus ideas y, aplicando lo que aprendieron, construyan 2 o 3 prompts 'fuertes' para su objeto.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Generación del Moodboard y Estructura del Brief ⏰ 8 minutos</h3>
+                            <p>Los alumnos usan los prompts en la IA generativa y ensamblan el brief final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, abran Imagine Art AI. Usen los prompts que crearon para generar varias imágenes. No se queden con la primera. Iteren, refinen el prompt si es necesario. Seleccionen las 2 o 3 mejores imágenes que representen su visión. Finalmente, abran un documento, peguen sus imágenes y completen las otras secciones del brief: Título, Objetivo y Justificación Estética. Este es su primer entregable como directores de diseño.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Showcase de Visiones) ⏰ 5 minutos</h2>
+                <p>Cierre de la sesión donde los estudiantes comparten sus briefs y reflexionan sobre el proceso de co-creación.</p>
+                <div class="steps">
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Showcase de Proyectos ⏰ 5 minutos</h3>
+                            <p>El facilitador invita a 2-3 voluntarios a compartir su brief y el prompt que usaron.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Tiempo. Directores, excelente trabajo. Quiero invitar a 2 o 3 voluntarios a que proyecten su brief. No solo nos muestren la imagen final, explíquennos el 'prompt' que usaron para llegar a ella. El resto, observe cómo un buen prompt se traduce en un resultado visual potente. (Facilitador gestiona las presentaciones). Felicitaciones, han completado su primera misión de diseño estratégico. Han aprendido a dirigir, no solo a hacer. Con este mapa, estamos listos para empezar a construir en Onshape.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
